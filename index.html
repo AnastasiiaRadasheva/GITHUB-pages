@@ -3,56 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mis on projekt?</title>
+  <title>Kuidas luua oma kalender MS Projectis?</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="page">
 
-    <div class="label">Mõiste selgitus</div>
-    <h1>Projekt</h1>
-    <p class="subtitle">projektijuhtimine · töökorraldus</p>
+    <div class="label">Juhend · MS Project</div>
+    <h1>Oma kalender</h1>
+    <p class="subtitle">kuidas luua kohandatud tööajakalender</p>
     <hr class="divider">
 
-    <p class="definition">
-      <strong>Projekt</strong> on ajaliselt piiratud tegevuste kogum, mille eesmärk on luua
-      unikaalne tulemus — toode, teenus või muutus. Projektil on alati
-      <strong>algus ja lõpp</strong>, kindel <strong>eelarve</strong> ning selge <strong>eesmärk</strong>.
-    </p>
-
-    <div class="chars">
-      <div class="char-item">
-        <div class="char-title">Ajaline piirang</div>
-        <div class="char-desc">Projektil on kindel algus- ja lõppkuupäev.</div>
-      </div>
-      <div class="char-item">
-        <div class="char-title">Unikaalsus</div>
-        <div class="char-desc">Iga projekt on omaette ja kordumatu.</div>
-      </div>
-      <div class="char-item">
-        <div class="char-title">Selge eesmärk</div>
-        <div class="char-desc">Projektil on konkreetne tulemus, mida soovitakse saavutada.</div>
-      </div>
-      <div class="char-item">
-        <div class="char-title">Ressursid</div>
-        <div class="char-desc">Kasutatakse inimesi, raha ja aega — kõik on piiratud.</div>
+    <div class="step">
+      <div class="step-number">1</div>
+      <div class="step-content">
+        <h2>Ava "Change Working Time"</h2>
+        <p>Mine ülaribalt <strong>Project</strong> → klõpsa <strong>Change Working Time</strong>. See avab kalendri halduse akna.</p>
+        <img src="_F6E60030-92B0-4FE5-90F1-B4C6B2BD35BD_.png" alt="Project ribbon — Change Working Time nupp">
       </div>
     </div>
 
-    <div class="example-block">
-      <div class="ex-label">Näited igapäevaelust</div>
-      <ul class="examples">
-        <li>Uue veebisaidi loomine ettevõttele</li>
-        <li>Maja renoveerimine kolme kuuga</li>
-        <li>Konverentsi korraldamine sügisel</li>
-        <li>Uue rakenduse arendamine ja turule toomine</li>
-        <li>Uurimistöö kirjutamine ülikoolis</li>
-      </ul>
+    <div class="step">
+      <div class="step-number">2</div>
+      <div class="step-content">
+        <h2>Loo uus baasikalender</h2>
+        <p>Klõpsa <strong>Create New Calendar…</strong>, anna sellele nimi (nt <em>TEST</em>) ja vali, kas luua täiesti uus kalender või kopeerida olemasolev (nt 24 Hours).</p>
+        <img src="_E09361CF-69B8-4D00-9238-5CE964BAFF98_.png" alt="Create New Base Calendar dialoog">
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">3</div>
+      <div class="step-content">
+        <h2>Vaata ja muuda tööaegu</h2>
+        <p>Vali oma kalender rippmenüüst. Kalendril on näha töö- ja puhkepäevad. Klõpsa kuupäeval, et näha, millised tunnid on tööajaks märgitud — näiteks <em>17:00–20:00</em> ja <em>21:00–00:00</em>.</p>
+        <img src="_89A5AAA4-F34B-474A-B6EA-D27E806404A8_.png" alt="Change Working Time — kalender märtsiga 2026">
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">4</div>
+      <div class="step-content">
+        <h2>Lisa erand (Exception)</h2>
+        <p>Vahekaardil <strong>Exceptions</strong> saad lisada erandeid — näiteks <em>KellaAeg</em>, mis kehtib 07.10.2025 kuni 26.11.2027. Klõpsa <strong>Details…</strong>, et täpsustada kellaaegasid ja kordumismustrit.</p>
+        <img src="_0BF340AE-6AEB-4C41-87E1-C7EDC3A87000_.png" alt="Details for KellaAeg — tööajad ja kordumismuster">
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">5</div>
+      <div class="step-content">
+        <h2>Tulemus Gantt-diagrammil</h2>
+        <p>Pärast kalendri seadistamist arvestab MS Project ülesannete kestust vastavalt uutele tööaegadele. Gantt-diagrammil näed ülesandeid õhtusel ajal — <strong>17:00 – 23:30</strong>.</p>
+        <img src="_218B8724-A033-433F-B2F6-CED9FF5B0095_.png" alt="Gantt diagramm ülesannetega">
+      </div>
     </div>
 
     <p class="footer-note">
-      Projekti juhib tavaliselt <em>projektijuht</em>, kes vastutab, et tööd tehakse
-      õigel ajal, õige eelarvega ja soovitud kvaliteediga.
+      Valmis! Oma kalender võimaldab planeerida projekte just sinu töögraafiku järgi — ka siis, kui tööaeg on ebatavaline.
     </p>
 
   </div>
