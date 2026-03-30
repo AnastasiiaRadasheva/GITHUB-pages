@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arvutusvälja lisamine MS Projectis</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <span class="nav-brand">MS Project · Juhendid</span>
+    <ul class="nav-links">
+      <li><a href="index.html">📅 Kalender</a></li>
+      <li><a href="valem.html" class="active">🔢 Arvutusväli</a></li>
+      <li><a href="diagramm.html">📊 Diagrammid</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page">
+  <div class="label">Juhend · MS Project</div>
+  <h1>Arvutusvälja lisamine</h1>
+  <p class="subtitle">kuidas lisada kohandatud arvutusväli projekti</p>
+  <hr class="divider">
+
+  <div class="info-box">
+    <strong>📹 Õppevideo:</strong> Täpsema selgituse leiad videost
+    <a href="https://www.youtube.com/watch?v=bP1Wi4wGlaw&t=367s" target="_blank" rel="noopener">YouTube — Arvutusvälja lisamine MS Projectis</a>
+  </div>
+
+  <div class="step">
+    <div class="step-number">1</div>
+    <div class="step-content">
+      <h2>Ava Custom Fields</h2>
+      <p>Mine ülaribalt <strong>Project</strong> → klõpsa <strong>Custom Fields</strong>. Avaneb dialoog, kus saad hallata kohandatud välju.</p>
+      <div class="img-placeholder">
+        <span>📸 Lisa siia ekraanipilt: Project → Custom Fields nupp</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-number">2</div>
+    <div class="step-content">
+      <h2>Vali välja tüüp ja nimi</h2>
+      <p>Vali rippmenüüst välja tüüp (nt <strong>Number</strong> arvuliste väärtuste jaoks või <strong>Text</strong> teksti jaoks). Klõpsa <strong>Rename…</strong> ja anna väljale mõistetav nimi, näiteks <em>Maksumus €</em> või <em>Prioriteet</em>.</p>
+      <div class="img-placeholder">
+        <span>📸 Lisa siia ekraanipilt: Custom Fields dialoog, välja tüübi valimine</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-number">3</div>
+    <div class="step-content">
+      <h2>Loo valem (Formula)</h2>
+      <p>Klõpsa nupul <strong>Formula…</strong>. Avaneb valemi redaktor, kus saad kirjutada arvutuse. Näiteks töötundide maksumuse arvutamiseks:</p>
+      <div class="code-block">
+        [Work] / 60 * 25
+      </div>
+      <p>See valem teisendab tööminutid tundideks ja korrutab tunnitasuga 25 €.</p>
+      <div class="img-placeholder">
+        <span>📸 Lisa siia ekraanipilt: Formula dialoog valemiga</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-number">4</div>
+    <div class="step-content">
+      <h2>Lisa väli tabelisse</h2>
+      <p>Pärast salvestamist lisa veerg tabelisse: <strong>paremklõps</strong> veeru päisel → <strong>Insert Column</strong> → otsi oma välja nimi. Nüüd näed arvutatud väärtusi iga ülesande kõrval.</p>
+      <div class="img-placeholder">
+        <span>📸 Lisa siia ekraanipilt: Insert Column — kohandatud veeru lisamine</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-number">5</div>
+    <div class="step-content">
+      <h2>Tulemus tabelis</h2>
+      <p>Tabelis kuvatakse iga ülesande jaoks automaatselt arvutatud väärtus. Kui muudad ülesande kestust või tööaega, uueneb arvutusväli kohe.</p>
+      <div class="img-placeholder">
+        <span>📸 Lisa siia ekraanipilt: tabel koos kohandatud arvutusveeruga</span>
+      </div>
+    </div>
+  </div>
+
+  <p class="footer-note">
+    Arvutusväljad muudavad projekti analüüsi palju kiiremaks — ei ole vaja käsitsi arvutada!
+  </p>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">MS Project · Juhend</div>
+    <div class="footer-copy">© 2026 · Anastasiia Radasheva</div>
+  </div>
+</footer>
+
+</body>
+</html>
