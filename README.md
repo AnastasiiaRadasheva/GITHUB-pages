@@ -132,14 +132,17 @@
 * [x] Diagrammide juhend
 ---
 
+
 ## Tehnoloogiad
 
-| Tehnoloogia  | Kasutus     |
-| ------------ | ----------- |
-| HTML5        | Struktuur   |
-| CSS3         | Kujundus    |
-| Google Fonts | Tüpograafia |
-| GitHub Pages | Avaldamine  |
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github&logoColor=white)
+
+- **HTML5** — lehtede struktuur
+- **CSS3** — kujundus ja paigutus (`style.css`)
+- **Google Fonts** — Playfair Display + Source Serif 4
+- **GitHub Pages** — automaatne avaldamine
 
 ---
 
