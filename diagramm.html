@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Diagrammide loomine MS Projectis</title>
+<title>Diagrammide loomine ProjectLibre'is</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -11,68 +11,71 @@
 
 <nav class="navbar">
   <div class="nav-inner">
-    <span class="nav-brand">MS Project · Juhendid</span>
+    <span class="nav-brand">ProjectLibre · Juhendid</span>
     <ul class="nav-links">
       <li><a href="index.html"> Kalender</a></li>
-      <li><a href="valem.html"> Arvutusväli</a></li>
       <li><a href="diagramm.html" class="active"> Diagrammid</a></li>
     </ul>
   </div>
 </nav>
 
 <div class="page">
-  <div class="label">Juhend · MS Project</div>
-  <h1>Diagrammid Projectis</h1>
-  <p class="subtitle">kuidas luua ja kasutada diagramme MS Projectis</p>
+  <div class="label">Juhend · ProjectLibre</div>
+  <h1>Diagrammid ProjectLibre'is</h1>
+  <p class="subtitle">kuidas luua ja kasutada diagramme ProjectLibre'is</p>
   <hr class="divider">
-
-  <div class="info-box">
-    <strong>📹 Õppevideo:</strong> Täpsema selgituse leiad videost
-    <a href="https://www.youtube.com/watch?v=iTpoBlkR0OE" target="_blank" rel="noopener">YouTube — Diagrammide loomine MS Projectis</a>
-  </div>
 
   <div class="step">
     <div class="step-number">1</div>
     <div class="step-content">
       <h2>Gantt-diagramm — peamine vaade</h2>
-      <p>Gantt-diagramm on MS Projecti põhivaade. Vasakus tabelis on ülesannete nimed, kestused, algus- ja lõpuajad ning ressursid. Paremal kuvatakse ajajoonel ribad, mis näitavad, millal iga ülesanne toimub. Antud projekti puhul on kuvatud kolmapäeva, neljapäeva ja reede tunniplaan koos vahetundide ja lõunapausiga. Ava see vaade: <strong>View</strong> → <strong>Gantt Chart</strong>.</p>
-      <img src="Images/{372CCFC6-D176-4EA0-BD96-19170A518AA4}.png" alt="Gantt Chart vaade — koolipäeva ülesanded">
+      <p>Gantt-diagramm on ProjectLibre'i põhivaade, mis avaneb automaatselt projekti avamisel. Vasakus tabelis on ülesannete nimed, kestused, algus- ja lõpuajad ning ressursid. Paremal kuvatakse ajajoonel ribad, mis näitavad, millal iga ülesanne toimub. Ava see vaade ülaribalt: <strong>Gantt</strong>-nupule klõpsates.</p>
+      <img src="Images/{372CCFC6-D176-4EA0-BD96-19170A518AA4}.png" alt="Gantt Chart vaade ProjectLibre'is">
     </div>
   </div>
 
   <div class="step">
     <div class="step-number">2</div>
     <div class="step-content">
-      <h2>Aruanded (Reports) — visuaalsed diagrammid</h2>
-      <p>MS Project sisaldab valmis visuaalseid aruandeid. Mine ülaribalt <strong>Report</strong> vahekaardile. Seal leiad: <strong>Dashboards</strong> (ülevaated), <strong>Resources</strong> (ressursside koormus), <strong>Costs</strong> (kulud), <strong>In Progress</strong> (käimasolevad ülesanded) ja <strong>Custom</strong> (kohandatud aruanne). Klõpsa mõnel kategoorial, et valida konkreetne aruanne.</p>
-      <img src="Images/{E6B2034B-DF96-45DB-A4B5-E720F42E7E7A}.png" alt="Report vahekaart — aruannete kategooriad">
+      <h2>Projekti ülevaade — Projects tabel</h2>
+      <p>ProjectLibre'is saad projekti üldandmeid vaadata tabelivormis. Seal on näha projekti nimi (<em>syynipaev</em>), algus- ja lõpukuupäev, planeeritud kulu (<strong>2880,47 €</strong>), maht (<strong>56,081 tundi</strong>) ning tegelik kulu. Selle vaate leiab menüüst <strong>File → Projects</strong>.</p>
+      <img src="Images/{E6B2034B-DF96-45DB-A4B5-E720F42E7E7A}.png" alt="ProjectLibre — projekti tabel syynipaev">
     </div>
   </div>
 
   <div class="step">
     <div class="step-number">3</div>
     <div class="step-content">
-      <h2>Resource Cost Overview — ressursside kulude aruanne</h2>
-      <p>Üks kasulikumaid aruandeid on <strong>Resource Cost Overview</strong> (Report → Resources). See näitab iga ressursi tegelikke kulusid (<em>Actual Cost</em>), järelejäänud kulusid (<em>Remaining Cost</em>) ja baasjoone kulusid (<em>Baseline Cost</em>) tulpdiagrammina. Allosas on ka detailne tabel standardmääraga. Näiteks õpilane Nastja on töötanud 3,03 tundi hinnaga 0,38 €/h — tegelik kulu on 1,15 €.</p>
-      <img src="Images/{5259529A-BED0-4DF3-A1B2-D8B1480ADB66}.png" alt="Resource Cost Overview — kulude diagramm ja tabel">
+      <h2>Project Information — projekti aruanne</h2>
+      <p>ProjectLibre võimaldab kuvada projekti kokkuvõtet aruande kujul. Aruandes on näha <strong>Dates</strong> (algus 2.02.26, lõpp 27.02.26), <strong>Duration</strong> (15,625 päeva), <strong>Work</strong> (56,081 tundi) ja <strong>Costs</strong> (planeeritud 2880,47 €, tegelik 0 €). Ava: <strong>File → Projects Dialog</strong>.</p>
+      <img src="Images/{5259529A-BED0-4DF3-A1B2-D8B1480ADB66}.png" alt="Project Information aruanne — kuupäevad, kestus, töö, kulud">
     </div>
   </div>
 
   <div class="step">
     <div class="step-number">4</div>
     <div class="step-content">
-      <h2>Timeline — ajajoon</h2>
-      <p>Timeline on kompaktne ajajoon Gantt-diagrammi kohal. See näitab projekti kogukestust ühe reana — antud näites algab projekt <strong>teisipäeval 03.02.26 kell 22:30</strong> ja lõpeb <strong>reedel 06.02.26 kell 23:30</strong>. Timeline on kasulik projekti ulatuse kiireks ülevaateks. Luba see: <strong>View</strong> → märgi linnuke <strong>Timeline</strong>.</p>
-      <img src="Images/{4D91FF60-431D-4D66-BA6C-76E48EDD2452}.png" alt="Timeline — projekti ajajoon 03.02–06.02.2026">
+      <h2>Network — sõltuvuste diagramm</h2>
+      <p>Network-vaade (tuntud ka kui PERT-diagramm) kuvab kõik ülesanded kastidena ja nende vahelised sõltuvused nooltena. See aitab visualiseerida projekti loogilist voogu — näiteks <em>Ettevalmistus</em> → <em>kohviku valik</em> → <em>kutsete kirjutamine</em> jne. Ava ülaribalt: <strong>Network</strong>.</p>
+      <img src="Images/{4D91FF60-431D-4D66-BA6C-76E48EDD2452}.png" alt="Network diagramm — ülesannete sõltuvused">
     </div>
   </div>
 
   <div class="step">
     <div class="step-number">5</div>
     <div class="step-content">
-      <h2>Diagrammi kohandamine — Report Design</h2>
-      <p>Kui avad mõne aruande, ilmub ülaribale <strong>Report Design</strong> vahekaart. Sealt saad lisada uusi elemente: <strong>Chart</strong>, <strong>Table</strong>, <strong>Text Box</strong>, <strong>Images</strong>, <strong>Shapes</strong>. Samuti saad muuta teemat (<strong>Themes</strong>), värve ja fonte. Nii saad aruannet täielikult kohandada oma vajadustele vastavaks — näiteks lisada uue tulpdiagrammi või muuta olemasoleva paigutust.</p>
-      <img src="Images/{5259529A-BED0-4DF3-A1B2-D8B1480ADB66}.png" alt="Report Design vahekaart — aruande redigeerimine">
+      <h2>Sub-views — Histogram ja Charts</h2>
+      <p>Menüüst <strong>View</strong> leiad alakuva (<em>Sub-views</em>) valiku: <strong>Histogram</strong> (ressursside koormuse tulpdiagramm), <strong>Charts</strong> (üldised diagrammid), <strong>Task Usage</strong> (ülesande kasutus ajas) ja <strong>Resource Usage</strong> (ressursi kasutus ajas). Näiteks Histogram näitab visuaalselt, kas mõni ressurss on üle koormatud. Vali sobiv alakuva, et kuvada see Gantt-diagrammi all.</p>
+      <img src="Images/{0BF340AE-6AEB-4C41-87E1-C7EDC3A87000}.png" alt="View → Sub-views — Histogram, Charts, Task Usage">
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-number">6</div>
+    <div class="step-content">
+      <h2>Gantt-diagramm ressurssidega — ajajoon</h2>
+      <p>Gantt-diagrammi paremal poolel kuvatakse ülesannete ribade kõrval ka <strong>määratud ressursid</strong> koos nende koormusprotsendiga — näiteks <em>anastasiia[50%];masha[50%]</em>. Ajajoonel on näha projekti kulg veebruarist märtsini, teemantmärgid (<strong>◆</strong>) tähistavad vahe-eesmärke (milestone). See annab kiire ülevaate, kes millal töötab ja kui suurel määral.</p>
+      <img src="Images/1775030081805__8B19D169-90C0-4D1D-8581-C474D14A6138_.png" alt="Gantt diagramm ressurssidega — veebruar–märts 2026">
     </div>
   </div>
 
@@ -83,7 +86,7 @@
 
 <footer>
   <div class="footer-inner">
-    <div class="footer-brand">MS Project · Juhend</div>
+    <div class="footer-brand">ProjectLibre · Juhend</div>
     <div class="footer-copy">© 2026 · Anastasiia Radasheva</div>
   </div>
 </footer>
