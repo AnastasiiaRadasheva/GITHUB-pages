@@ -1,6 +1,6 @@
 # MS Project Juhendid — GitHub Pages
 
-Õpetlik veebileht, mis selgitab samm-sammult, kuidas kasutada **MS Projecti** peamisi funktsioone.
+> Õpetlik veebileht, mis selgitab samm-sammult, kuidas kasutada **MS Projecti** peamisi funktsioone.
 
 ---
 
