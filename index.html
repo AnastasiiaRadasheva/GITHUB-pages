@@ -3,15 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kuidas luua oma kalender MS Projectis?</title>
+<title>Kuidas luua oma kalender ProjectLibre'is?</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <nav class="navbar">
   <div class="nav-inner">
-    <span class="nav-brand">MS Project · Juhendid</span>
+    <span class="nav-brand">ProjectLibre · Juhendid</span>
     <ul class="nav-links">
       <li><a href="index.html" class="active">Kalender</a></li>
       <li><a href="valem.html"> Arvutusväli</a></li>
@@ -19,69 +18,60 @@
     </ul>
   </div>
 </nav>
-
 <div class="page">
-  <div class="label">Juhend · MS Project</div>
+  <div class="label">Juhend · ProjectLibre</div>
   <h1>Oma kalender</h1>
   <p class="subtitle">kuidas luua kohandatud tööajakalender</p>
   <hr class="divider">
-
   <div class="step">
     <div class="step-number">1</div>
     <div class="step-content">
       <h2>Ava "Change Working Time"</h2>
-      <p>Mine ülaribalt <strong>Project</strong> → klõpsa <strong>Change Working Time</strong>. See avab kalendri halduse akna.</p>
-      <img src="Images/{F6E60030-92B0-4FE5-90F1-B4C6B2BD35BD}.png" alt="Project ribbon — Change Working Time nupp">
+      <p>Mine ülaribalt <strong>Project</strong> → klõpsa <strong>Change Working Time</strong>. See avab kalendri halduse akna, kus saad hallata kõiki projekti tööajakalendreid.</p>
+      <img src="Images/{F6E60030-92B0-4FE5-90F1-B4C6B2BD35BD}.png" alt="ProjectLibre ribbon — Change Working Time nupp">
     </div>
   </div>
-
   <div class="step">
     <div class="step-number">2</div>
     <div class="step-content">
       <h2>Loo uus baasikalender</h2>
-      <p>Klõpsa <strong>Create New Calendar…</strong>, anna sellele nimi (nt <em>TEST</em>) ja vali, kas luua täiesti uus kalender või kopeerida olemasolev (nt 24 Hours).</p>
-      <img src="Images/{E09361CF-69B8-4D00-9238-5CE964BAFF98}.png" alt="Create New Base Calendar dialoog">
+      <p>Klõpsa <strong>New…</strong>, vali <em>Create a new Base Calendar</em>, anna sellele nimi (nt <em>synncalendar</em>) ja kinnita <strong>OK</strong>-ga. Uus kalender ilmub rippmenüüsse.</p>
+      <img src="Images/{E09361CF-69B8-4D00-9238-5CE964BAFF98}.png" alt="New Base Calendar dialoog ProjectLibre'is">
     </div>
   </div>
-
   <div class="step">
     <div class="step-number">3</div>
     <div class="step-content">
       <h2>Vaata ja muuda tööaegu</h2>
-      <p>Vali oma kalender rippmenüüst. Kalendril on näha töö- ja puhkepäevad. Klõpsa kuupäeval, et näha, millised tunnid on tööajaks märgitud — näiteks <em>17:00–20:00</em> ja <em>21:00–00:00</em>.</p>
-      <img src="Images/{89A5AAA4-F34B-474A-B6EA-D27E806404A8}.png" alt="Change Working Time — kalender märtsiga 2026">
+      <p>Vali loodud kalender rippmenüüst. Kalendril on näha töö- ja puhkepäevad. Klõpsa kuupäeval, et näha, millised tunnid on tööajaks märgitud — näiteks <em>17:00–20:00</em> ja <em>21:00–00:00</em>.</p>
+      <img src="Images/{89A5AAA4-F34B-474A-B6EA-D27E806404A8}.png" alt="Change Working Time — kalender projektiga">
     </div>
   </div>
-
   <div class="step">
     <div class="step-number">4</div>
     <div class="step-content">
-      <h2>Lisa erand (Exception)</h2>
-      <p>Vahekaardil <strong>Exceptions</strong> saad lisada erandeid — näiteks <em>KellaAeg</em>, mis kehtib 07.10.2025 kuni 26.11.2027. Klõpsa <strong>Details…</strong>, et täpsustada kellaaegasid ja kordumismustrit.</p>
-      <img src="Images/{0BF340AE-6AEB-4C41-87E1-C7EDC3A87000}.png" alt="Details for KellaAeg — tööajad ja kordumismuster">
+      <h2>Määra kalender ülesandele</h2>
+      <p>Tee ülesandel topeltklõps, et avada <strong>Task Information</strong>. Mine vahekaardile <strong>Advanced</strong> ja vali <strong>Task Calendar</strong> rippmenüüst oma äsja loodud kalender — nt <em>synncalendar</em>. See tähendab, et just see ülesanne arvestab sinu kohandatud tööajaga.</p>
+      <img src="Images/{0BF340AE-6AEB-4C41-87E1-C7EDC3A87000}.png" alt="Task Information — Advanced vahekaart kalendri määramisega">
     </div>
   </div>
-
   <div class="step">
     <div class="step-number">5</div>
     <div class="step-content">
       <h2>Tulemus Gantt-diagrammil</h2>
-      <p>Pärast kalendri seadistamist arvestab MS Project ülesannete kestust vastavalt uutele tööaegadele. Gantt-diagrammil näed ülesandeid õhtusel ajal — <strong>17:00 – 23:30</strong>.</p>
-      <img src="Images/{218B8724-A033-433F-B2F6-CED9FF5B0095}.png" alt="Gantt diagramm ülesannetega">
+      <p>Pärast kalendri seadistamist arvestab ProjectLibre ülesannete kestust vastavalt uutele tööaegadele. Gantt-diagrammil näed ülesandeid täpsete kuupäevade ja kellaaegadega — näiteks <strong>13.02.26 kuni 14.02.26</strong>.</p>
+      <img src="Images/{218B8724-A033-433F-B2F6-CED9FF5B0095}.png" alt="Gantt diagramm ülesannetega ProjectLibre'is">
     </div>
   </div>
-
   <p class="footer-note">
     Valmis! Oma kalender võimaldab planeerida projekte just sinu töögraafiku järgi — ka siis, kui tööaeg on ebatavaline.
   </p>
 </div>
-
 <footer>
   <div class="footer-inner">
-    <div class="footer-brand">MS Project · Juhend</div>
+    <div class="footer-brand">ProjectLibre · Juhend</div>
     <div class="footer-copy">© 2026 · Anastasiia Radasheva</div>
   </div>
 </footer>
-
 </body>
 </html>
