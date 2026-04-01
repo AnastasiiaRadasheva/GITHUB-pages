@@ -1,31 +1,32 @@
-#  ProjectLibre Juhendid — GitHub Pages
+# ProjectLibre Juhendid — GitHub Pages
 
 > Õpetlik veebileht, mis selgitab samm-sammult, kuidas kasutada **ProjectLibre'i** peamisi funktsioone: kohandatud tööajakalendrite loomist ja erinevate diagrammide kasutamist.
 
 ---
 
-##  Live sait
+## Live sait
 
- [Ava veebileht](https://anastasiiaradasheva.github.io/GITHUB-pages/)
+> [!IMPORTANT]
+> Ava veebileht:  
+> https://anastasiiaradasheva.github.io/GITHUB-pages/
 
 ---
 
-##  Ekraanipildid
+## Ekraanipildid
 
-###  Navigatsioon
-![Navbar](Images/{E7BA706F-1571-40B0-9D3F-8FB49F94BC13}.png)
+### Navigatsioon
+<img src="Images/{E7BA706F-1571-40B0-9D3F-8FB49F94BC13}.png" width="800">
 
 ### Kalender — index.html
-![Kalender leht — samm 1](Images/{1F075638-8D15-49EC-9ECC-590F6139F3FD}.png)
-
-![Kalender leht — samm 5 ja footer](Images/{20FDC0BF-5F8D-4B3B-AB18-254214FD7969}.png)
+<img src="Images/{1F075638-8D15-49EC-9ECC-590F6139F3FD}.png" width="800">
+<img src="Images/{20FDC0BF-5F8D-4B3B-AB18-254214FD7969}.png" width="800">
 
 ### Diagrammid — diagramm.html
-![Diagrammid leht — samm 1](Images/{CB26E4E5-7C32-477A-9ECD-EA4DB8007A3C}.png)
+<img src="Images/{CB26E4E5-7C32-477A-9ECD-EA4DB8007A3C}.png" width="800">
 
 ---
 
-## 📄 Lehed
+## Lehed
 
 | Leht | Fail | Kirjeldus |
 |------|------|-----------|
@@ -34,18 +35,26 @@
 
 ---
 
-##  Sisu ülevaade
+## Sisu ülevaade
 
-###  Kalender (`index.html`)
-Juhend selgitab 5 sammuga, kuidas:
-1. Avada **Change Working Time** akna
+### Kalender (`index.html`)
+
+> [!NOTE]
+> Juhend selgitab 5 sammuga, kuidas luua kohandatud tööajakalender ja määrata see ülesannetele.
+
+1. Avada **Change Working Time** akna (`Project → Change Working Time`)
 2. Luua uus baasikalender (nt `synncalendar`)
 3. Seadistada kohandatud tööajad (nt 17:00–23:00)
 4. Määrata kalender konkreetsele ülesandele läbi **Task Information → Advanced**
 5. Vaadata tulemust Gantt-diagrammil
 
-###  Diagrammid (`diagramm.html`)
-Juhend tutvustab 6 erineva vaatega:
+---
+
+### Diagrammid (`diagramm.html`)
+
+> [!IMPORTANT]
+> Juhend tutvustab erinevaid diagramme ja vaateid ProjectLibre'is.
+
 1. **Põhivaated** — Gantt, Network, WBS, Task Usage ülaribalt
 2. **Projects tabel** — projekti üldandmed (kulu, maht, kuupäevad)
 3. **Project Information** — projekti kokkuvõttev aruanne
@@ -55,9 +64,7 @@ Juhend tutvustab 6 erineva vaatega:
 
 ---
 
-
-
-##  Tehnoloogiad
+## Tehnoloogiad
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
@@ -70,8 +77,7 @@ Juhend tutvustab 6 erineva vaatega:
 
 ---
 
-
-##  Autor
+## Autor
 
 **Anastasiia Radasheva**  
 © 2026 · Tallinn
