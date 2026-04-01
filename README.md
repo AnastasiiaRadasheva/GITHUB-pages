@@ -143,24 +143,6 @@
 
 ---
 
-## Märkused
-
-> [!WARNING]
-> Veendu, et kaust `Images` on õigesti nimetatud ja failid eksisteerivad.
-
-> [!TIP]
-> GitHub on case-sensitive:
-> `Images` ≠ `images`
-
----
-
-## Footnotes
-
-See projekt on loodud õppe eesmärgil.[^1]
-
-[^1]: MS Project juhendmaterjalid ja iseseisev praktika.
-
----
 
 ## Autor
 
