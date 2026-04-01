@@ -130,9 +130,6 @@
 * [x] Kalenderi juhend
 * [x] Arvutusvälja juhend
 * [x] Diagrammide juhend
-* [ ] Disaini täiustamine
-* [ ] Täiendavad näited
-
 ---
 
 ## Tehnoloogiad
