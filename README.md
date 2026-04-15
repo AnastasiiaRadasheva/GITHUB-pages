@@ -6,7 +6,7 @@
 
 ## Live sait
 
-> [!PEAMINE]
+> [!IMPORTANT]
 > Ava veebileht:
 > https://anastasiiaradasheva.github.io/GITHUB-pages/
 
